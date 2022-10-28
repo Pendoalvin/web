@@ -5,7 +5,7 @@ $subject = $_POST['subject'];
 $message = $_POST['message'];
 
 
-$email_from = 'https://pendoalvin.github.io/web';
+$email_from = 'https://pendoalvin.github.io/web/form-handler.php';
 $email_subject = 'New Form Submission';
 $email_body = "User Name: $name.\n".
                "User Email: $visitor_email.\n".
