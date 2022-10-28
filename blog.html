@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+   <section class="sub-header">
+    <nav>
+       <a href="index.html"> <img src="img/eduford_img/logo.png" alt=""></a> 
+       <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+
+    <h1>Our Certificate & Online courses for 2021</h1>
+   </section>
+
+              <!-- blog page content -->
+              <section class="blog-content">
+                <div class="row">
+                    <div class="blog-left">
+                        <img src="img/eduford_img/certificate.jpg">
+                        <h2>Our Certificate & online Program for 2021</h2>
+                        <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
+
+Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
+
+Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</p>
+
+<div class="comment-box">
+    <h3>Leave a comment</h3>
+    <form action="form-handler.php" method="post" class="comment-form">
+        <input type="text" name="name" placeholder="Enter Name">
+        <input type="email" name="email" placeholder="Enter E-mail">
+        <textarea name="message" id="" rows="5" placeholder="Your Comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">Comment</button>
+    </form>
+</div>
+
+                    </div>
+                    <div class="blog-right">
+                        <h3>Post Catergories</h3>
+                  <div>
+                    <span>Business Analytic</span>
+                    <span>21</span>
+                  </div>
+<div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                  </div>
+<div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                  </div>
+<div>
+                    <span>Computer Science</span>
+                    <span>38</span>
+                  </div>
+<div>
+                    <span>AutoCAD</span>
+                    <span>21</span>
+                  </div>
+<div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                  </div>
+<div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                  </div>
+
+
+
+
+
+                    </div>
+                </div>
+              </section>
+
+                   
+
+   
+     
+     
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>Matey gun yawl poop deck sheet yo-ho-ho chase <br> sutler loot aft execution dock hogshead tack crow's nest walk the plank interloper hulk grapple coxswain barkadeer.</p>
+        <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i> 
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by PENDO ALVIN
+</p>
+     </section>
+
+    
+    
+
+
+             <!--- Javascript-->
+<script>
+    var navLinks = document.getElementById('navLinks');
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    <script src="script.js"></script>
+</body>
+</html>
